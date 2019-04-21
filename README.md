@@ -6,7 +6,7 @@ This project is named 'k9' because I was thinking about dogs.
 
 # Purpose
 
-A modern opinionated standards-compliant multi-platform multithreaded C++ project that parses JSON files, intended as a starting point for new projects. Go build something awesome!
+A modern opinionated standards-compliant multi-platform multithreaded C++ project that parses JSON files, intended as a starting point for new projects. Go build something awesome in modern C++!
 
 # License
 
