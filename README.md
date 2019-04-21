@@ -1,8 +1,8 @@
-# Multithreaded C++11 nlohmann/json Abseil GoogleTest Bazel Quick Start #
+# K-9 Starter Project for Modern C++ Projects
 
 # Name
 
-This project builds executables named 'k9' because I was thinking about dogs.
+This project builds executables named 'K-9' because I was thinking about dogs.
 
 # Purpose
 
