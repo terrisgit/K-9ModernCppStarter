@@ -6,7 +6,7 @@ I wanted to write a multithreaded C++ program that worked with any C++11 compile
 
 I created this reusable starter repo so you wouldn't have to reinvent the wheel that I reinvented over the course of several weekends of March/April 2019.
 
-This project was derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs at the time.
+This project was derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs.
 
 It is licensed under Apache 2.0. Do whatever you want with it.
 
@@ -16,7 +16,7 @@ Go build something awesome with this!
 
 # Builder
 
-Bazel is IMO the best but CMake is the most popular. I chose Bazel because it works well with Abseil. Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
+Bazel is IMO the best but CMake is the most popular and nobody appears to be using boost-build besides Boost. I chose Bazel because it works well with Abseil. Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
 
 # Prerequisites
 
