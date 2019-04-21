@@ -6,7 +6,7 @@ I wanted to write a multithreaded C++ program for an IoT project that worked wit
 
 I created this reusable starter repo so you wouldn't have to reinvent the wheel that I reinvented over the course of several weekends of March/April 2019.
 
-This project was derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs.
+This project is derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs.
 
 It is licensed under Apache 2.0. Do whatever you want with it.
 
