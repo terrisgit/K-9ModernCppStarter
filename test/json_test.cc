@@ -3,7 +3,7 @@
 
 namespace k9 {
 namespace {
-TEST(Json, One) {
+TEST(Json, HardCodedJson_1) {
   auto j = R"(
   {
     "happy": true,
@@ -12,6 +12,7 @@ TEST(Json, One) {
 )"_json;
 
   ASSERT_EQ(j["happy"], true);
+  ASSERT_GT(j["pi"], 3.14);
 }
 }  // namespace 
 }  // namespace k9
