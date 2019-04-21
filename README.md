@@ -10,7 +10,7 @@ This project is derived from the [Abseil Bazel QuickStart](https://abseil.io/doc
 
 It is licensed under Apache 2.0. Do whatever you want with it.
 
-The hardest part was getting a 2019 version of Bazel to work with a JSON library that doesn't know anything about Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (at least not days!) of trial and error. I almost gave up. We're both lucky I didn't.
+The hardest part was getting a 2019 version of [Bazel](https://bazel.build) to work with a JSON library that doesn't know anything about Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (at least not days!) of trial and error. I almost gave up. We're both lucky I didn't.
 
 Go build something awesome with this!
 
@@ -45,3 +45,4 @@ bazel run //:k9 -- arg1 arg2 arg3
 
 1. Add Boost
 2. Logging (syslog and console)
+3. Add Doxygen
