@@ -42,9 +42,9 @@ bazel run //:k9 -- arg1 arg2 arg3
 # ToDo
 
 1. Add Boost
-2. Logging (syslog and console)
-3. Add Doxygen
-4. Get rid of the OSX-only warning
+2. Add logging (syslog and console)
+3. Add Doxygen-to-HTML
+4. Get rid of the OSX-only warning:
 ```
 clang: warning: argument unused during compilation: '-pthread'
 ```
