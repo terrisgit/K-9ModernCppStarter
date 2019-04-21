@@ -2,7 +2,7 @@
 
 # Why?
 
-I wanted to write a multithreaded C++ program that worked with any C++11 compiler and parsed JSON files. I also wanted the executables to be built with something that could download dependencies (from github), worked on (at least) Linux and OSX, and didn't require make or shell scripts. Because it's 2019, I wanted to be able to write unit tests on day 1.
+I wanted to write a multithreaded C++ program that worked with any C++11 compiler and parsed JSON files. I naturally wanted the executables to be built with something that could download dependencies (from github), worked on (at least) Linux and OSX, and didn't require make or shell scripts. Because it's 2019, I wanted to be able to write unit tests on day 1.
 
 I created this reusable starter repo so you wouldn't have to reinvent the wheel that I reinvented over the course of several weekends of March/April 2019.
 
@@ -16,7 +16,7 @@ Go build something awesome with this!
 
 # Builder
 
-Bazel is IMO the best but CMake is the most popular. I chose Bazel because it works well with Abseil. Although Bazel is tricky to configure, CMake is worse. It's well enough documented for my needs.
+Bazel is IMO the best but CMake is the most popular. I chose Bazel because it works well with Abseil. Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
 
 # Prerequisites
 
