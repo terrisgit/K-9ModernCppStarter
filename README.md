@@ -39,7 +39,7 @@ PR's are welcome. Please obey the .editorconfig file.
 
 # Builder
 
-Bazel is IMO the best C++ build tool available today. CMake is the most popular. Nobody appears to be using boost-build besides Boost.
+Bazel is IMO the best C++ build tool available today. On the other hand, CMake is the most popular, and nobody appears to be using boost-build besides Boost.
 
 I chose Bazel (by Google) because it works well with Abseil and GoogleTest (also by Google). Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
 
