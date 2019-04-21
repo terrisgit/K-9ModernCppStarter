@@ -16,7 +16,7 @@ Go build something awesome with this!
 
 # Builder
 
-Bazel is IMO the best but CMake is the most popular and nobody appears to be using boost-build besides Boost. I chose Bazel because it works well with Abseil. Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
+Bazel is IMO the best but CMake is the most popular and nobody appears to be using boost-build besides Boost. I chose Bazel (by Google) because it works well with Abseil and GoogleTest (also by Google). Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
 
 # Prerequisites
 
@@ -27,20 +27,21 @@ As promised, this project only requires gcc and Bazel.
 
 See the 'osx' script in this repo for OSX setup.
 
-# Run the 'main' executable
-
-Currently does nothing exits
-
-```bash
-bazel run //:k9 -- a_commandline_arg
-```
-
 # Run the tests
 
 ```bash
 bazel test //:k9_test
 ```
 
+# Run the 'main' executable
+
+Currently just exits
+
+```bash
+bazel run //:k9 -- arg1 arg2 arg3
+```
+
 # ToDo
 
-1. Add boost
+1. Add Boost
+2. Logging (syslog and console)
