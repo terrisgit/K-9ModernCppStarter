@@ -1,16 +1,35 @@
 # C++ 11 Abseil nlohmann/json Threads Bazel GoogleTest Quick Start #
 
-I wanted to write a multithreaded C++ program for an IoT project that worked with any C++11 compiler, parsed JSON files, and didn't suck. I naturally wanted the executables to be built with something that could download dependencies (from github), worked on (at least) Linux and OSX, and didn't require makefiles or shell scripts. Because it's 2019, I wanted to be able to write unit tests on day 1.
+# Purpose
 
-[Abseil](https://abseil.io) is currently the best way to write modern C++ that works on older versions of gcc. [nlohmann/json](https://github.com/nlohmann/json) is the best JSON parser for C++ today. [GoogleTest](https://github.com/google/googletest) is similarly the best of breed for unit testing and mocking.
+This is a demonstration of a modern multithreaded C++ program that parses JSON files.
 
-This project is derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs.
+It is named 'k9' because I was thinking about dogs.
+
+# Prerequisites
+
+- [gcc](https://gcc.gnu.org/install)
+- [Bazel](https://docs.bazel.build/versions/master/install.html)
+
+See the 'osx' script in this repo for OSX setup.
+
+# Dependencies
+
+- [Abseil](https://abseil.io) is currently the best way to write modern C++ that works on older versions of gcc
+- [nlohmann/json](https://github.com/nlohmann/json) is the best JSON parser for C++ today
+- [GoogleTest](https://github.com/google/googletest) is the best of breed for unit testing and mocking
+
+# Origin
+
+This project is derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart).
 
 # License
 
-It is licensed under Apache 2.0. Do whatever you want with it.
+[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-Go build something awesome with this!
+The author makes not promises about the code herein. Use at your own risk. I am not responsible.
+
+Go build something awesome!
 
 # Builder
 
@@ -19,15 +38,6 @@ Bazel is IMO the best C++ build tool available today. CMake is the most popular.
 I chose Bazel (by Google) because it works well with Abseil and GoogleTest (also by Google). Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
 
 The hardest part with all of the code herein was getting a 2019 version of [Bazel](https://bazel.build) to work with nlohmann/json, which doesn't use Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (not days, at least) of trial and error. The experience was maddening. The WORKSPACE file herein is a working example that will assist you greatly when you need additional dependencies that don't use Bazel.
-
-# Prerequisites
-
-As promised, this project only requires gcc and Bazel.
-
-- [gcc](https://gcc.gnu.org/install)
-- [Bazel](https://docs.bazel.build/versions/master/install.html)
-
-See the 'osx' script in this repo for OSX setup.
 
 # Run the tests
 
