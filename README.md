@@ -14,7 +14,7 @@ This is a modern, opinionated, standards-compliant, multi-platform, multithreade
 
 # Disclaimer
 
-The author makes not promises about the code herein. Use at your own risk. I am not responsible.
+The author, [Terris Linenbach](https://github.com/terrisgit), hereby makes no promises about the contents herein. Use at your own risk. I am not responsible.
 
 # Prerequisites
 
