@@ -2,7 +2,7 @@ cc_library (
   name = "nlohmann",
   # This includes magic is needed because hpp files #include hpp files using <> instead of quotes
   includes = ["."],
-  # I was not able to get glob to work and I gave up
+  # I was not able to get glob to work after an hour of banging my head on it
   hdrs = [
     "nlohmann/json.hpp",
     "nlohmann/adl_serializer.hpp",
