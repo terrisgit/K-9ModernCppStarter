@@ -2,7 +2,7 @@
 
 # Name
 
-This project builds executables named 'K-9' because I was thinking about dogs.
+This project is named 'K-9' because I was thinking about dogs.
 
 # Purpose
 
