@@ -18,10 +18,10 @@ The author, [Terris Linenbach](https://github.com/terrisgit), hereby makes no pr
 
 # Prerequisites
 
-- [gcc](https://gcc.gnu.org/install)
+- [gcc](https://gcc.gnu.org/install) (On OSX, install XCode of gcc)
 - [Bazel](https://docs.bazel.build/versions/master/install.html)
 
-See the 'osx' script in this repo for OSX setup.
+If you're using OSX, run the 'osx' script.
 
 # Dependencies
 
