@@ -4,7 +4,7 @@ I wanted to write a multithreaded C++ program for an IoT project that worked wit
 
 [Abseil](https://abseil.io) is currently the best way to write modern C++ that works on older versions of gcc. [nlohmann/json](https://github.com/nlohmann/json) is the best JSON parser for C++ today. [GoogleTest](https://github.com/google/googletest) is similarly the best of breed for unit testing and mocking.
 
-This start project is derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs.
+This project is derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs.
 
 # License
 
@@ -14,9 +14,11 @@ Go build something awesome with this!
 
 # Builder
 
-Bazel is IMO the best but CMake is the most popular and nobody appears to be using boost-build besides Boost. I chose Bazel (by Google) because it works well with Abseil and GoogleTest (also by Google). Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
+Bazel is IMO the best C++ build tool available today. CMake is the most popular. Nobody appears to be using boost-build besides Boost.
 
-The hardest part with all of the code herein was getting a 2019 version of [Bazel](https://bazel.build) to work with nlohmann/json which doesn't use Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (at least not days!) of trial and error. The WORKSPACE file here is a working example so you can add  more dependencies that don't use Bazel.
+I chose Bazel (by Google) because it works well with Abseil and GoogleTest (also by Google). Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
+
+The hardest part with all of the code herein was getting a 2019 version of [Bazel](https://bazel.build) to work with nlohmann/json, which doesn't use Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (not days, at least) of trial and error. The experience was maddening. The WORKSPACE file herein is a working example that will assist you greatly when you require additional dependencies that don't use Bazel.
 
 # Prerequisites
 
