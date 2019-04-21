@@ -4,7 +4,14 @@
 namespace k9 {
 namespace {
 TEST(Json, One) {
-  ASSERT_EQ(true, true);
+  auto j = R"(
+  {
+    "happy": true,
+    "pi": 3.141
+  }
+)"_json;
+
+  ASSERT_EQ(j["happy"], true);
 }
 }  // namespace 
 }  // namespace k9
