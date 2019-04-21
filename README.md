@@ -2,7 +2,7 @@
 
 # Why?
 
-I wanted to write a multithreaded C++ program that worked with any C++11 compiler and parsed JSON files. I naturally wanted the executables to be built with something that could download dependencies (from github), worked on (at least) Linux and OSX, and didn't require make or shell scripts. Because it's 2019, I wanted to be able to write unit tests on day 1.
+I wanted to write a multithreaded C++ program for an IoT project that worked with any C++11 compiler and parsed JSON files. I naturally wanted the executables to be built with something that could download dependencies (from github), worked on (at least) Linux and OSX, and didn't require make or shell scripts. Because it's 2019, I wanted to be able to write unit tests on day 1.
 
 I created this reusable starter repo so you wouldn't have to reinvent the wheel that I reinvented over the course of several weekends of March/April 2019.
 
