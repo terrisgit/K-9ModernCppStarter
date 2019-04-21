@@ -2,7 +2,7 @@
 
 # Name
 
-This project is named 'K-9' because I was thinking about dogs.
+This project is named K-9 because I was thinking about dogs.
 
 # Purpose
 
@@ -41,9 +41,9 @@ PR's are welcome. Please obey the .editorconfig file.
 
 Bazel is IMO the best C++ build tool available today. On the other hand, CMake is the most popular, and nobody appears to be using boost-build besides Boost.
 
-I chose Bazel (by Google) because it works well with Abseil and GoogleTest (also by Google). Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
+I chose Bazel (by Google) because it works well with Abseil and GoogleTest (also by Google). Although Bazel is tricky to configure, CMake is worse. Bazel is well documented for my needs but beware old examples that use deprecated features.
 
-The hardest part was getting a 2019 version of [Bazel](https://bazel.build) working with nlohmann/json, which doesn't use Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (not days, at least) of trial and error. The experience was maddening. The WORKSPACE file herein is a working example that will assist you greatly when you need additional dependencies that don't use Bazel.
+The hardest part was getting a 2019 version of Bazel working with nlohmann/json, which doesn't use Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (not days, at least) of trial and error. The experience was maddening. The WORKSPACE file herein is a working example that will assist you greatly when you need additional dependencies that don't use Bazel.
 
 # Run the tests
 
