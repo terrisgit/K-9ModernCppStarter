@@ -14,6 +14,7 @@
 
 workspace(name = "k9")
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
 # abseil-cpp
 http_archive(
@@ -48,3 +49,13 @@ http_archive(
   build_file = "@//:inotify.BUILD",
   sha256 = "d338774f49c01ead88060d449915e25dba868db99e43914a17c20c7d995dcc3f"
 )
+
+# Boost
+git_repository(
+    name = "com_github_nelhage_rules_boost",
+    commit = "6d6fd834281cb8f8e758dd9ad76df86304bf1869",
+    remote = "https://github.com/nelhage/rules_boost",
+)
+
+load("@com_github_nelhage_rules_boost//:boost/boost.bzl", "boost_deps")
+boost_deps()

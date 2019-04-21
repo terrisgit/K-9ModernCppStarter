@@ -60,7 +60,7 @@ bazel test //:k9-test
 # Build tests
 
 ```bash
-bazel build -s test //:k9-test
+bazel build -s //:k9-test
 ```
 
 # Run 'main' executable
