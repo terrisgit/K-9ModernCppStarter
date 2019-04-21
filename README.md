@@ -28,6 +28,9 @@ If you're using OSX, run the 'osx' script.
 - [Abseil](https://abseil.io) for writing modern C++ that works with older C++ 11 parsers
 - [GoogleTest](https://github.com/google/googletest) for unit testing and mocking
 - [nlohmann/json](https://github.com/nlohmann/json) for parsing JSON
+- Linux only: [erikzenker/inotify-cpp](https://github.com/erikzenker/inotify-cpp/releases) for listening for filesystem events
+    - Uses [Boost via nelhage/rules_boost](https://github.com/nelhage/rules_boost), thus demonstrating how to use Boost
+      in your own project or use a dependency that uses Boost
 
 # Origin
 
@@ -73,10 +76,9 @@ bazel run //:k9 -- arg1 arg2 arg3
 
 # ToDo
 
-1. Add Boost
-2. Add logging (syslog and console)
-3. Add Doxygen-to-HTML
-4. Get rid of the OSX-only warning:
+1. Add logging (syslog and console)
+2. Add Doxygen-to-HTML
+3. Get rid of the OSX-only warning:
 ```
 clang: warning: argument unused during compilation: '-pthread'
 ```
