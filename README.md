@@ -45,13 +45,19 @@ I chose Bazel (by Google) because it works well with Abseil and GoogleTest (also
 
 The hardest part was getting a 2019 version of [Bazel](https://bazel.build) working with nlohmann/json, which doesn't use Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (not days, at least) of trial and error. The experience was maddening. The WORKSPACE file herein is a working example that will assist you greatly when you need additional dependencies that don't use Bazel.
 
-# Run the tests
+# Clean
+
+```bash
+bazel clean --expunge
+```
+
+# Run tests
 
 ```bash
 bazel test //:k9_test
 ```
 
-# Run the 'main' executable
+# Run 'main' executable
 
 Currently just exits
 

@@ -1,10 +1,12 @@
 cc_library (
-  name = "json-lib",
+  name = "inotify_lib",
   # This includes magic is needed because hpp files #include hpp files using <> instead of quotes
-  includes = ["."],
+  includes = ["src/include"],
+  srcs = ["src/**/*.cpp"],
   visibility = ["//visibility:public"],
+  copts = ["-std","c++11"],
   # I was not able to get glob to work after an hour of banging my head
-  hdrs = glob(["**/*.hpp"])
+  hdrs = glob(["include/**/*.hpp"])
   #  "nlohmann/json.hpp",
   #  "nlohmann/adl_serializer.hpp",
   #  "nlohmann/detail/conversions/from_json.hpp",
