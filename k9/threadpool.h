@@ -14,8 +14,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#ifndef EDK9_THREADPOOL_H_
-#define EDK9_THREADPOOL_H_
+#ifndef K9_THREADPOOL_H_
+#define K9_THREADPOOL_H_
 
 #include <cassert>
 #include <cstddef>
