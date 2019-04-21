@@ -6,7 +6,7 @@ This project is named 'k9' because I was thinking about dogs.
 
 # Purpose
 
-This is a modern opinionated multithreaded C++ program that parses JSON files. It is intended as a starting point for new projects.
+This is a modern opinionated standards-compliant multi-platform multithreaded C++ program that parses JSON files. It is intended as a starting point for new projects.
 
 # Prerequisites
 
