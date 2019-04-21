@@ -1,10 +1,12 @@
 # C++ 11 Abseil nlohmann/json Threads Bazel GoogleTest Quick Start #
 
+# Name
+
+This project is named 'k9' because I was thinking about dogs.
+
 # Purpose
 
-This is a demonstration of a modern multithreaded C++ program that parses JSON files.
-
-It is named 'k9' because I was thinking about dogs.
+This is a modern multithreaded C++ program that parses JSON files. It is intended as a starting point for new projects.
 
 # Prerequisites
 
@@ -21,7 +23,7 @@ See the 'osx' script in this repo for OSX setup.
 
 # Origin
 
-This project is derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart).
+This project was created by following the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart) in March 2019.
 
 # License
 
