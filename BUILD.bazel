@@ -13,7 +13,7 @@
 # limitations under the License.
 
 cc_library(
-    name = "k9_lib",
+    name = "k9-lib",
     # srcs = ["src/"],
     hdrs = ["k9/threadpool.h"],
     # includes = ["k9"],
@@ -26,10 +26,10 @@ cc_library(
 )
 
 cc_test(
-    name = "k9_test",
+    name = "k9-test",
     srcs = ["test/threadpool_test.cc", "test/json_test.cc"],
     deps = [
-        ":k9_lib",
+        ":k9-lib",
         "@com_google_googletest//:gtest_main",
     ]
 )
@@ -38,6 +38,6 @@ cc_binary(
     name = "k9",
     srcs = ["src/main.cc"],
     deps = [
-        ":k9_lib",
+        ":k9-lib",
     ]
 )

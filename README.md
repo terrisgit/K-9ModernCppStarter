@@ -14,7 +14,7 @@ This is a modern, opinionated, compliant, multi-platform, multi-threaded C++ pro
 
 # Disclaimer
 
-The author, [Terris Linenbach](https://github.com/terrisgit), hereby makes no promises about the contents herein and is not responsible for anything. Use at your own risk. Void where prohibited.
+The author, [Terris Linenbach](https://github.com/terrisgit), makes no promises about the contents herein and is not responsible for anything. Use at your own risk. Void where prohibited.
 
 # Prerequisites
 
@@ -54,13 +54,13 @@ bazel clean --expunge
 # Run tests
 
 ```bash
-bazel test //:k9_test
+bazel test //:k9-test
 ```
 
 # Build tests
 
 ```bash
-bazel build -s test //:k9_test
+bazel build -s test //:k9-test
 ```
 
 # Run 'main' executable
