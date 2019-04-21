@@ -6,7 +6,15 @@ This project is named 'k9' because I was thinking about dogs.
 
 # Purpose
 
-This is a modern opinionated standards-compliant multi-platform multithreaded C++ program that parses JSON files. It is intended as a starting point for new projects.
+A modern opinionated standards-compliant multi-platform multithreaded C++ project that parses JSON files, intended as a starting point for new projects. Go build something awesome!
+
+# License
+
+[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+# Disclaimer
+
+The author makes not promises about the code herein. Use at your own risk. I am not responsible.
 
 # Prerequisites
 
@@ -25,13 +33,9 @@ See the 'osx' script in this repo for OSX setup.
 
 This project was created by following the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart) in March 2019.
 
-# License
+# Contributions
 
-[Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
-
-The author makes not promises about the code herein. Use at your own risk. I am not responsible.
-
-Go build something awesome!
+PR's are welcome. Please obey the .editorconfig file.
 
 # Builder
 
