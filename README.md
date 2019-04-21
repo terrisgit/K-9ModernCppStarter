@@ -1,20 +1,36 @@
 # C++ 11 Abseil nlohmann/json Threads Bazel GoogleTest Quick Start #
 
+# Why?
+
+I wanted to write a multithreaded C++ program that worked with any C++11 compiler and parsed JSON files. I wanted the program to be built with a modern tool that downloaded dependencies and worked on (at least) Linux and OSX, without makefiles or custom scripting. Because it's 2019, I wanted to be able to write unit tests on day 1.
+
+I created this reusable starter repo so you wouldn't have to reinvent the wheel that I reinvented over the course of several weekends.
+
+This project was derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs at the time.
+
+It is licensed under Apache 2.0. Do whatever you want with it.
+
+The hardest part was getting a 2019 version of Bazel to work with a JSON library that doesn't know anything about Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (at least not days!) of trial and error. I almost gave up. We're both lucky I didn't.
+
+# Build Tool
+
+Bazel is IMO the best but CMake is the most popular. I chose Bazel because it works well with Abseil. Although Bazel is tricky to configure, CMake is worse. It's well enough documented for my needs.
+
 # Prerequisites
 
-(See the 'osx' script in this repo for OSX setup)
+As promised, this project only requires gcc and Bazel.
 
-- [Install Bazel](https://docs.bazel.build/versions/master/install.html)
-- [Install gcc](https://gcc.gnu.org/install/)
+- [gcc](https://gcc.gnu.org/install)
+- [Bazel](https://docs.bazel.build/versions/master/install.html)
 
-This project was derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart)
+See the 'osx' script in this repo for OSX setup.
 
 # Run the 'main' executable
 
 Currently does nothing exits
 
 ```bash
- bazel run //:k9 -- a_commandline_arg
+bazel run //:k9 -- a_commandline_arg
 ```
 
 # Run the tests
