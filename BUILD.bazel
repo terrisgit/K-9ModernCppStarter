@@ -22,7 +22,7 @@ cc_library(
         "@com_google_absl//absl/synchronization",
         "@com_google_absl//absl/time",
         "@json//:json-lib",
-        "@inotify//:inotify-lib",
+        # "@inotify//:inotify-lib", # This only works on Linux
     ]
 )
 
