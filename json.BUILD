@@ -1,6 +1,6 @@
 cc_library (
   name = "nlohmann",
-  # This includes magic is needed because the hpp files include other htpp files using #include with <> instead of quotes
+  # This includes magic is needed because hpp files #include hpp files using <> instead of quotes
   includes = ["."],
   # I was not able to get glob to work and I gave up
   hdrs = [
