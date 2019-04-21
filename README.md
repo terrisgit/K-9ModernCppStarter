@@ -43,7 +43,7 @@ Bazel is IMO the best C++ build tool available today. CMake is the most popular.
 
 I chose Bazel (by Google) because it works well with Abseil and GoogleTest (also by Google). Although Bazel is tricky to configure, CMake is worse. Bazel is well enough documented for my needs but beware old examples that use deprecated features.
 
-The hardest part with all of the code herein was getting a 2019 version of [Bazel](https://bazel.build) to work with nlohmann/json, which doesn't use Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (not days, at least) of trial and error. The experience was maddening. The WORKSPACE file herein is a working example that will assist you greatly when you need additional dependencies that don't use Bazel.
+The hardest part was getting a 2019 version of [Bazel](https://bazel.build) working with nlohmann/json, which doesn't use Bazel. I started with https://github.com/nathanws/bazel-examples but it is out date and required literally hours (not days, at least) of trial and error. The experience was maddening. The WORKSPACE file herein is a working example that will assist you greatly when you need additional dependencies that don't use Bazel.
 
 # Run the tests
 
