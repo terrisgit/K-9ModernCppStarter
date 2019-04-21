@@ -6,6 +6,6 @@ cc_library (
   includes = ["src/include"],
   srcs = glob(["src/*.cpp"]),
   visibility = ["//visibility:public"],
-  # I was not able to get glob to work after an hour of banging my head
-  hdrs = glob(["src/include/inotify-cpp/*.h"])
+  hdrs = glob(["src/include/inotify-cpp/*.h"]),
+  deps = ["@boost//:filesystem", "@boost//:bimap"]
 )
