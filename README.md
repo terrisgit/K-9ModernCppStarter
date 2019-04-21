@@ -25,9 +25,9 @@ If you're using OSX, run the 'osx' script.
 
 # Dependencies
 
-- [Abseil](https://abseil.io) is currently the best way to write modern C++ that works with old C++11 parsers
-- [nlohmann/json](https://github.com/nlohmann/json) is the best JSON parser for modern C++
-- [GoogleTest](https://github.com/google/googletest) is the best of breed library for C++ unit testing and mocking
+- [Abseil](https://abseil.io) for writing modern C++ that works with older C++ 11 parsers
+- [GoogleTest](https://github.com/google/googletest) for unit testing and mocking
+- [nlohmann/json](https://github.com/nlohmann/json) for parsing JSON
 
 # Origin
 
