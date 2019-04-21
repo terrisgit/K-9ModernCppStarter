@@ -1,17 +1,20 @@
 # C++ 11 Abseil nlohmann/json Threads Bazel GoogleTest Quick Start #
 
-Make sure that [Bazel is installed](https://docs.bazel.build/versions/master/install.html)
-on your system.
+- [Install Bazel](https://docs.bazel.build/versions/master/install.html)
+- [Install gcc](https://gcc.gnu.org/install/)
 
-Then build and run the example
+Run the example
 
 ```bash
  bazel run //:k9 -- a_commandline_arg
 ```
 
-To run the tests
+Run the tests
 
 ```bash
 bazel test //:k9_test
 ```
 
+# ToDo
+
+1. Add boost
