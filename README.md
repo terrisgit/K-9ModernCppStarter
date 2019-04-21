@@ -57,6 +57,12 @@ bazel clean --expunge
 bazel test //:k9_test
 ```
 
+# Build tests
+
+```bash
+bazel build -s test //:k9_test
+```
+
 # Run 'main' executable
 
 Currently just exits
