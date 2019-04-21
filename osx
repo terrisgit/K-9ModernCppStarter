@@ -1,3 +1,5 @@
+#! /bin/sh
+
 echo "Install xcode"
 open https://developer.apple.com/xcode/
 xcode-select --install
@@ -5,5 +7,3 @@ echo "Installing Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL \
 https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install bazel
-brew install buildifier
-
