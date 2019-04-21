@@ -1,4 +1,4 @@
-# C++ 11 Abseil nlohmann/json Multithreaded Bazel GoogleTest Quick Start #
+# Multithreaded C++11 nlohmann/json Abseil GoogleTest Bazel Quick Start #
 
 # Name
 
@@ -6,7 +6,7 @@ This project is named 'k9' because I was thinking about dogs.
 
 # Purpose
 
-This is a modern multithreaded C++ program that parses JSON files. It is intended as a starting point for new projects.
+This is a modern opinionated multithreaded C++ program that parses JSON files. It is intended as a starting point for new projects.
 
 # Prerequisites
 
@@ -17,9 +17,9 @@ See the 'osx' script in this repo for OSX setup.
 
 # Dependencies
 
-- [Abseil](https://abseil.io) is currently the best way to write modern C++ that works on older versions of gcc
-- [nlohmann/json](https://github.com/nlohmann/json) is the best JSON parser for C++ today
-- [GoogleTest](https://github.com/google/googletest) is the best of breed for unit testing and mocking
+- [Abseil](https://abseil.io) is currently the best way to write modern C++ that works with old C++11 parsers
+- [nlohmann/json](https://github.com/nlohmann/json) is the best JSON parser for modern C++
+- [GoogleTest](https://github.com/google/googletest) is the best of breed library for C++ unit testing and mocking
 
 # Origin
 
