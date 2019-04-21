@@ -1,4 +1,4 @@
-# K-9 Starter Project for Modern C++ Projects
+# K-9 Starter Project for Modern C++
 
 # Name
 
