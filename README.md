@@ -2,7 +2,9 @@
 
 I wanted to write a multithreaded C++ program for an IoT project that worked with any C++11 compiler, parsed JSON files, and didn't suck. I naturally wanted the executables to be built with something that could download dependencies (from github), worked on (at least) Linux and OSX, and didn't require makefiles or shell scripts. Because it's 2019, I wanted to be able to write unit tests on day 1.
 
-This start project is derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs. If you need to build using old versions of gcc, you need Abseil. [nlohmann/json](https://github.com/nlohmann/json) is the best JSON parser for C++ today. GoogleTest is similarly the best of breed for unit testing and mocking.
+[Abseil](https://abseil.io) is currently the best way to write modern C++ that works on older versions of gcc. [nlohmann/json](https://github.com/nlohmann/json) is the best JSON parser for C++ today. GoogleTest is similarly the best of breed for unit testing and mocking.
+
+This start project is derived from the [Abseil Bazel QuickStart](https://abseil.io/docs/cpp/quickstart). It is named 'k9' because I was thinking about dogs.
 
 # License
 
