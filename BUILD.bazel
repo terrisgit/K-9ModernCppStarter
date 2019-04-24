@@ -22,14 +22,15 @@ cc_library(
         "@com_google_absl//absl/synchronization",
         "@com_google_absl//absl/time",
         "@json//:json-lib",
-        "@inotify//:inotify-lib", # Linux only
+        # "@inotify//:inotify-lib", # Linux only
     ]
 )
 
 cc_test(
     name = "k9-test",
-    srcs = ["test/threadpool_test.cc", "test/json_test.cc",
-            "test/inotify_test.cc" # Linux only
+    srcs = ["test/threadpool_test.cc",
+            "test/json_test.cc",
+            # "test/inotify_test.cc", # Linux only
            ],
     deps = [
         ":k9-lib",

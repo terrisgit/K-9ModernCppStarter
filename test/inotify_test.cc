@@ -13,7 +13,7 @@ namespace k9 {
 namespace {
 TEST(inotify, inotify_1) {
   // Parse the directory to watch
-  boost::filesystem::path path('.');
+  boost::filesystem::path path(".");
 
   // Set the event handler which will be used to process particular events
   auto handleNotification = [&](Notification notification) {

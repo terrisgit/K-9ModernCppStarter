@@ -74,6 +74,28 @@ Currently just exits
 bazel run //:k9 -- arg1 arg2 arg3
 ```
 
+# VisualStudio Code Configuration
+
+## Install Manually
+
+- [clang](http://clang.llvm.org)
+- [cppCheck](http://cppcheck.sourceforge.net)
+
+## Extensions
+
+- vscode-bazel
+- C/C++ (Microsoft)
+- C/C++ Advanced Lint
+    - [See also](https://stackoverflow.com/questions/45160650/why-do-i-get-error-messages-like-unable-to-activate-xx-analyzer-in-vscode)
+    - To disable the warning about flexlint, add this to your settings:
+        - "c-cpp-flylint.flexelint.enable": false
+- EditorConfig
+- Rainbow Brackets
+- GitLens
+- Git History
+
+
+
 # ToDo
 
 1. Add logging (syslog and console)
