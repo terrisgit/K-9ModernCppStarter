@@ -94,13 +94,16 @@ bazel run //:k9 -- arg1 arg2 arg3
 - GitLens
 - Git History
 
+# Notes
 
+- Generate SHA256 hash from a URL https://hash.online-convert.com/sha256-generator
 
 # ToDo
 
-1. Add logging (syslog and console)
-2. Add Doxygen-to-HTML
-3. Get rid of the OSX-only warning:
+1. Doxygen-to-HTML
+2. Lint
+3. Automatically format source code
+4. Get rid of the OSX-only warning:
 ```
 clang: warning: argument unused during compilation: '-pthread'
 ```

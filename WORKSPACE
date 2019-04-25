@@ -37,7 +37,7 @@ http_archive(
   name = "json",
   urls = ["https://github.com/nlohmann/json/releases/download/v3.6.1/include.zip"],  # 2019-03-20
   strip_prefix = "include",
-  build_file = "@//:json.BUILD",
+  build_file = "@//:build/json.BUILD",
   sha256 = "69cc88207ce91347ea530b227ff0776db82dcb8de6704e1a3d74f4841bc651cf"
 )
 
@@ -46,7 +46,7 @@ http_archive(
   name = "inotify",
   urls = ["https://github.com/erikzenker/inotify-cpp/archive/v0.2.0.zip"],  # 2018-12-6
   strip_prefix = "inotify-cpp-0.2.0",
-  build_file = "@//:inotify.BUILD",
+  build_file = "@//:build/inotify.BUILD",
   sha256 = "d338774f49c01ead88060d449915e25dba868db99e43914a17c20c7d995dcc3f"
 )
 
@@ -59,3 +59,12 @@ git_repository(
 
 load("@com_github_nelhage_rules_boost//:boost/boost.bzl", "boost_deps")
 boost_deps()
+
+# gabime/spdlog
+http_archive(
+  name = "spdlog",
+  urls = ["https://github.com/gabime/spdlog/archive/v1.3.1.zip"],  # 2019-01-18
+  strip_prefix = "spdlog-1.3.1",
+  build_file = "@//:build/spdlog.BUILD",
+  sha256 = "db6986d0141546d4fba5220944cc1f251bd8afdfc434bda173b4b0b6406e3cd0"
+)
