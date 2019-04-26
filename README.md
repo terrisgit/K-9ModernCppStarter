@@ -76,7 +76,7 @@ bazel run //:k9 -- arg1 arg2 arg3
 
 # VisualStudio Code Configuration
 
-## Install Manually
+## Linux: Install Manually
 
 - [clang](http://clang.llvm.org)
 - [cppCheck](http://cppcheck.sourceforge.net)
@@ -89,6 +89,7 @@ bazel run //:k9 -- arg1 arg2 arg3
     - [See also](https://stackoverflow.com/questions/45160650/why-do-i-get-error-messages-like-unable-to-activate-xx-analyzer-in-vscode)
     - To disable the warning about flexlint, add this to your settings:
         - "c-cpp-flylint.flexelint.enable": false
+- Clang-Format
 - EditorConfig
 - Rainbow Brackets
 - GitLens
