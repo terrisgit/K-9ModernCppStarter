@@ -18,16 +18,19 @@ The author, [Terris Linenbach](https://github.com/terrisgit), makes no promises 
 
 # Prerequisites
 
-- [gcc](https://gcc.gnu.org/install) (On OSX, install XCode of gcc)
-- [Bazel](https://docs.bazel.build/versions/master/install.html)
+If you're using OSX, run the 'osx' script. Otherwise, install the following:
 
-If you're using OSX, run the 'osx' script.
+- [gcc](https://gcc.gnu.org/install)
+- [Bazel](https://docs.bazel.build/versions/master/install.html)
+- [clang](http://clang.llvm.org)
+- [cppCheck](http://cppcheck.sourceforge.net)
 
 # Dependencies
 
 - [Abseil](https://abseil.io) for writing modern C++ that works with older C++ 11 parsers
 - [GoogleTest](https://github.com/google/googletest) for unit testing and mocking
 - [nlohmann/json](https://github.com/nlohmann/json) for parsing JSON
+- [gabime/spdlog](https://github.com/gabime/spdlog) for logging
 - Linux only: [erikzenker/inotify-cpp](https://github.com/erikzenker/inotify-cpp/releases) for listening for filesystem events
     - Uses [Boost via nelhage/rules_boost](https://github.com/nelhage/rules_boost), thus demonstrating how to use Boost
       in your own project or use a dependency that uses Boost
@@ -75,11 +78,6 @@ bazel run //:k9 -- arg1 arg2 arg3
 ```
 
 # VisualStudio Code Configuration
-
-## Linux: Install Manually
-
-- [clang](http://clang.llvm.org)
-- [cppCheck](http://cppcheck.sourceforge.net)
 
 ## Extensions
 
