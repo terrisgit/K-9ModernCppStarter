@@ -15,7 +15,7 @@
 cc_library(
     name = "k9-lib",
     # srcs = ["src/"],
-    hdrs = ["k9/threadpool.h"],
+    hdrs = ["k9/ThreadPool.h"],
     # includes = ["k9"],
     deps = [
         "@com_google_absl//absl/strings",
