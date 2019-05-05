@@ -5,7 +5,7 @@
 
 #include <atomic>
 #include <iostream>
-#include "k9/threadpool.h"
+#include "k9/ThreadPool.h"
 #include "gtest/gtest.h"
 #include "absl/time/clock.h"
 
@@ -37,7 +37,7 @@ void add(const int tasknumber) {
 bool test(std::function<void(int)>f) {
   ctr = 0;
   {
-    edk9::ThreadPool tp(threads);
+    k9::ThreadPool tp(threads);
     for (auto i = 0; i < loops; i++) 
       tp.schedule(std::bind(f, i));
   }

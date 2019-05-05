@@ -10,3 +10,5 @@ brew install bazel
 brew install buildifier
 brew install cppcheck
 brew install clang
+brew install clang-format
+
