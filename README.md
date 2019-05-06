@@ -22,7 +22,7 @@ If you're using OSX, run the 'osx' script. Otherwise, install the following:
 
 - [gcc](https://gcc.gnu.org/install)
 - [Bazel](https://docs.bazel.build/versions/master/install.html)
-- [clang](http://clang.llvm.org)
+- [clang-format](https://stackoverflow.com/questions/20756924/how-can-i-install-clang-format-in-ubuntu)
 - [cppCheck](http://cppcheck.sourceforge.net)
 
 # Dependencies
