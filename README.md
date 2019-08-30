@@ -1,12 +1,12 @@
 # K-9 Starter Project for Modern C++
 
+# Introduction
+
+This is a modern, opinionated, multi-platform, multi-threaded C++11 project that parses JSON files. It is intended for educational purposes and as a starting point for new projects. Go build something awesome in modern C++!
+
 # Name
 
 This project is named K-9 because I was thinking about dogs.
-
-# Purpose
-
-This is a modern, opinionated, compliant, multi-platform, multi-threaded C++ project that parses JSON files. It is intended for educational purposes and/or as a starting point for new projects. Go build something awesome in modern C++!
 
 # License
 
